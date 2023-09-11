@@ -1,5 +1,132 @@
+/*
+--- 01 - TYPHOGRAPHY SYSTEM
+
+- FONT SIZE SYSTEM (px)
+    10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Font weight:
+    Default: 400
+    Medium: 500
+    semi-bold: 600
+    bold: 700
+
+- Line heights:
+    Default: 1
+    small: 1.05
+    Medium: 1.2
+    Paragraph Default: 1.6
+
+
+- SPACING SYSTEM (px)
+    2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+- Letter Spacing
+-0.5px
+- 0.75px
+
+
+
+
+--- 02 COLORS
+
+- Primary: #F89808
+
+    Tints:
+    #fdf2e9
+    #fae5d3
+    #09A87A
+    #DF2F27
+    Shades: #cf711f
+    Accents:
+    Greys: #484848 , #333
+
+
+---- 05 SHADOWS
+
+  - 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+
+---- 06 BORDER-Radius
+    Default: 9px
+    Medium: 11px
+
+            */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: "NinjaNaruto";
+  src: url(font/njnaruto.ttf);
+}
+
+@font-face {
+  font-family: "MonoLisa";
+  src: url(font/monolisa/MonoLisa-Regular.ttf);
+  font-weight: normal; /* Regular font weight */
+}
+
+@font-face {
+  font-family: "MonoLisa";
+  src: url(font/monolisa/MonoLisa-Bold.ttf);
+  font-weight: bold; /* Bold font weight */
+}
+
+@font-face {
+  font-family: "MonoLisa";
+  src: url(font/monolisa/MonoLisa-Black.ttf);
+  font-weight: 600; /* Black font weight (adjust as needed) */
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Monolisa", sans-serif;
+  font-weight: normal;
+  font-size: 1.6rem;
+  height: 100vh;
+  font-weight: 100vh;
+  background-image: url(img/naruto-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  backdrop-filter: blur(1.5rem);
+}
+
+.header {
+  padding: 2rem 0 2rem 0;
+}
+
+.logo {
+  display: inline;
+  font-family: NinjaNaruto;
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: #f89808;
+  padding: 0.7rem 0.5rem 0.7rem 0.5rem;
+  border: 4px solid #f89808;
+  border-radius: 2rem;
+  margin: 2rem;
+}
+
+.main-component {
+  margin: 0 auto;
+
+  width: 50vw;
+  height: 50vh;
+  background-image: url(/img/naruto-component.png);
+  backdrop-filter: blur(1.5rem);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* .test {
+  width: 200px;
+  height: 200px;
+  background-image: url(img/naruto-component.png);
+  backdrop-filter: blur(100px);
+} */
