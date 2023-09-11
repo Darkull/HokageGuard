@@ -94,7 +94,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  backdrop-filter: blur(1.5rem);
+  /* backdrop-filter: blur(1.5rem); */
 }
 
 .header {
@@ -114,4 +114,86 @@ body {
 }
 
 .main-component {
+  background-image: url(/img/naruto-component.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70vh;
+  width: 70vw;
+  margin: 5rem auto;
+  border-radius: 3rem;
+  overflow: hidden;
+  /* filter: blur(1rem); */
+  padding: 5rem 10rem 5rem 10rem;
+}
+
+.intro-div {
+  display: flex;
+}
+
+.intro-text {
+  color: #fff;
+  background-color: rgba(1, 1, 1, 0.3);
+  height: 5rem;
+  width: 120rem;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.input-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 2rem;
+}
+
+.input-text {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.text-input {
+  height: 30rem;
+  width: 55rem;
+  border-radius: 1rem;
+  border: none;
+}
+.password-input {
+  height: 3rem;
+  width: 55rem;
+  border-radius: 1rem;
+  border: none;
+}
+.output-input {
+  height: 35.6rem;
+  width: 57rem;
+  border-radius: 1rem;
+  border: none;
+}
+
+.btn {
+  height: 5rem;
+  width: 20rem;
+  border-radius: 0.5rem;
+  border: none;
+  display: flex;
+  text-transform: uppercase;
+  color: #333;
+  font-family: NinjaNaruto;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-left: 50%;
+}
+
+.btn--encrypt {
+  margin-right: 1rem;
+
+  background-color: #df2f27;
+}
+.btn--decrypt {
+  background-color: #09a87a;
+}
+
+.footer {
 }
