@@ -114,19 +114,4 @@ body {
 }
 
 .main-component {
-  margin: 0 auto;
-
-  width: 50vw;
-  height: 50vh;
-  background-image: url(/img/naruto-component.png);
-  backdrop-filter: blur(1.5rem);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
-
-/* .test {
-  width: 200px;
-  height: 200px;
-  background-image: url(img/naruto-component.png);
-  backdrop-filter: blur(100px);
-} */
